@@ -1,0 +1,46 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+/* Navigation styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* Main content styles */
+.team-info {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
